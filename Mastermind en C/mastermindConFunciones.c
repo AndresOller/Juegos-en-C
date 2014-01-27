@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
+#include <time.h>
 #define N 4 //Numero de valores que tendrá el numero
 
 //CABECERAS de funciones
@@ -48,6 +49,7 @@ int main(){
 void llenarVectorNumAleatorios(int adivinar[],int n){
 
 	int cont;
+	srand (time(NULL));
 	for(cont=0; cont<n; cont++) adivinar[cont]=(rand() %9)+1; //del 1 al 9
 	
 }
