@@ -1,4 +1,4 @@
-Juegos-en-C
+Mastermind en C
 ===========
 
-Carpeta con juegos básicos en C
+
